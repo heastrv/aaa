@@ -3,7 +3,8 @@ public class Main {
         new Main().run3();
         String name = "твоя мама";
         double cost = 39.99;
-        System.out.printf("Товар: %s; Цена: %1.2f UAH",name,cost);
+        int n = 5;
+        System.out.printf("за %d %s; Цена: %1.2f UAH",n, name,cost*n);
     }
 
     private void run3() {
