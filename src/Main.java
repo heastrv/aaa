@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        new Main().run2();
+        new Main().run3();
+        String name = "твоя мама";
+        double cost = 39.99;
+        System.out.printf("Товар: %s; Цена: %1.2f UAH",name,cost);
+    }
 
+    private void run3() {
     }
 
     private void run2() {
