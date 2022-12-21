@@ -1,7 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        new Main().run1();
+        new Main().run2();
 
+    }
+
+    private void run2() {
+        String name = "чипсы";
+        double cost = 39.99;
+        System.out.printf("Товар: %s; Цена: %.2f UAH",name,cost);
     }
 
     private void run1() {
